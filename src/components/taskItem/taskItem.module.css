@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: transparent;
+    align-items: center;
+    /* max-width: 300px; */
+    margin: 5px auto;
+}
+
+.input {
+    width: 30px;
+    margin: 5px;
+    background-color: transparent;
+    color: grey;
+}
+
+.button {
+    background-color: transparent;
+    color: grey;
+}

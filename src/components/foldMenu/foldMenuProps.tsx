@@ -1,0 +1,3 @@
+interface FoldMenuProps {
+    taskNo: number;
+}

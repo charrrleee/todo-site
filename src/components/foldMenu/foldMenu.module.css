@@ -1,0 +1,72 @@
+.foldMenu {
+    width: 300px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    transition: width 0.3s;
+    border-radius: 25px;
+    height: 100%;
+  }
+  
+  .folded {
+    width: 70px;
+    height: auto;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .foldButton {
+    padding: 10px;
+    background-color: transparent;
+    color: grey;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .menuContent {
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+
+  .menuSubHeader {
+    text-align: left;
+    margin-left: 15px;
+  }
+  
+  .menuContent h2 {
+    font-size: 18px;
+  }
+  
+  .menuContent ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menuContent li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .menuHeader {
+    display: flex;
+    align-items: center;
+  }
+  .menuText {
+    margin: 0;
+  }
+
+  .taskButton {
+    padding: 10px;
+    background-color: transparent;
+    color: grey;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
