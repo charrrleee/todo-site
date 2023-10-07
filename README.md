@@ -24,5 +24,5 @@ To deploy this project run
 
 ## Demo
 
-Insert gif or link to demo
+![alt text](https://github.com/charrrleee/todo-site/blob/main/src/assets/screenshot.png?raw=true)
 
