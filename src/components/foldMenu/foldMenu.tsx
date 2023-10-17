@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from './FoldMenu.module.css';
+import styles from './foldMenu.module.css';
 import MenuIcon from '@mui/icons-material/Menu';
 import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
 
