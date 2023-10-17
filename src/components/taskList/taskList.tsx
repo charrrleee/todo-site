@@ -7,7 +7,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 const TaskList: React.FC<TaskListProps> = ({ tasks, updateTaskList }) => {
   const [newtasks, setNewTasks] = useState(tasks);
-  const [taskDetail, setTaskDetail] = useState(null);
+  const [taskDetail, setTaskDetail] = useState<Task | null>(null);
 
   const handleAddTask = (newTaskName: string) => {
     const newTask = {

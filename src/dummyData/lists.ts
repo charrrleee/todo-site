@@ -1,4 +1,3 @@
-Copy code
 interface List {
   color: string;
   name: string;

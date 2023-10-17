@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styles from './taskItem.module.css';
 
 const TaskItem: React.FC<TaskItemProps> = ({ task, onToggleTask, onOpenDetails }) => {
-  const [ complete, setComplete ] = useState(task.completed);
 
   return (
     <div className={styles.container + " row justify-content-between"}>
