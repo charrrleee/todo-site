@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from './AddTask.module.css';
+import styles from './addTask.module.css';
 
 const AddTask: React.FC<AddTaskProps> = ({ onAddTask }) => {
   const [newTask, setNewTask] = useState('');
